@@ -1,19 +1,72 @@
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* Variables */
 
 :root {
+    --color-black: #000000;
+    --color-charcoal: #344055;
     --color-crimson-ua: #A71D31;
+    --color-glaucous: #677DB7;
+    --color-oxford-blue: #101D42;
     --color-platinum: #EBEBEB;
     --color-rich-black: #040403;
     --color-silver: #C0C0C0;
     --color-yale-blue: #004E98;
+    --width-max: 1100px;
+}
+
+/* Reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* Core Styles */
 
 body {
-    font-family: 'Nunito',sans-serif;
+    background-color: var(--color-platinum);
+    color: var(--color-oxford-blue);
+    font-family: 'Roboto',sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}
+
+#main-header {
+    background-color: var(--color-oxford-blue);
+    padding: 4rem 0;
+}
+
+#main-header h1,
+#main-header h3 {
+    color: var(--color-platinum);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: var(--width-max);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.3rem;
+}
+
+#timeline ul {
+    background-color: var(--color-platinum);
+    padding: 50px 0px;
+}
+
+#timeline ul li {
+    background-color: var(--color-crimson-ua);
+    list-style-type: none;
+    margin: 0 auto;
+    padding-top: 50px;
+    position: relative;
+    width: 6px;
 }
