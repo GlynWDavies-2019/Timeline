@@ -1,0 +1,19 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/* Variables */
+
+:root {
+    --color-crimson-ua: #A71D31;
+    --color-platinum: #EBEBEB;
+    --color-rich-black: #040403;
+    --color-silver: #C0C0C0;
+    --color-yale-blue: #004E98;
+}
+
+/* Core Styles */
+
+body {
+    font-family: 'Nunito',sans-serif;
+}
